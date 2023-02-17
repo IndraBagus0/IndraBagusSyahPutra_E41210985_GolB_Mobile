@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="20dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/field_date"
+        android:layout_height="50dp"
+        android:inputType="none"
+        android:paddingHorizontal="20dp"
+        android:background="@drawable/field"/>
+
+    <Button
+        android:layout_marginVertical="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_date"
+        android:layout_below="@+id/field_date"
+        android:layout_centerHorizontal="true"
+        android:text="GET DATE" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/btn_date"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt_selected"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+</RelativeLayout>

@@ -1,26 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.minggu_1">
+    package="com.example.minggu_2">
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="MINGGU_2"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MINGGU_1"
+        android:theme="@style/Theme.MINGGU_2"
         tools:targetApi="31">
         <activity
-            android:name=".comstraint"
+            android:name=".Material"
             android:exported="false" />
         <activity
-            android:name=".relative"
+            android:name=".ScrollViewHorizontal"
             android:exported="false" />
         <activity
-            android:name=".linier"
+            android:name=".ScrollView"
+            android:exported="false" />
+        <activity
+            android:name=".Table"
+            android:exported="false" />
+        <activity
+            android:name=".frame"
+            android:exported="false" />
+        <activity
+            android:name=".Constraint"
+            android:exported="false" />
+        <activity
+            android:name=".Liniear"
+            android:exported="false" />
+        <activity
+            android:name=".Relative"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

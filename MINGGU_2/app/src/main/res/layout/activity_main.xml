@@ -8,7 +8,6 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -23,7 +22,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackground"
-
+                android:id="@+id/activity_linear"
                 android:layout_weight="0.3"
                 android:orientation="vertical"
                 android:layout_height="match_parent">
@@ -35,7 +34,8 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_gravity="center"
-                        app:tint="@color/purple_500"/>
+                        app:tint="@color/black"
+                        android:src="@drawable/circle" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_gravity="center"
@@ -56,7 +56,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackground"
-
+                android:id="@+id/activity_relative"
                 android:layout_height="match_parent">
                 <FrameLayout
                     android:layout_width="match_parent"
@@ -66,7 +66,8 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_gravity="center"
-                        app:tint="@color/purple_500"/>
+                        app:tint="@color/black"
+                        android:src="@drawable/circle" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_gravity="center"
@@ -87,7 +88,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackground"
-
+                android:id="@+id/activity_constraint"
                 android:layout_height="match_parent">
                 <FrameLayout
                     android:layout_width="match_parent"
@@ -97,7 +98,8 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_gravity="center"
-                        app:tint="@color/purple_500"/>
+                        app:tint="@color/black"
+                        android:src="@drawable/circle" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_gravity="center"
@@ -123,7 +125,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackground"
-
+                android:id="@+id/activity_frame"
                 android:layout_weight="0.3"
                 android:orientation="vertical"
                 android:layout_height="match_parent">
@@ -135,7 +137,8 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_gravity="center"
-                        app:tint="@color/purple_500"/>
+                        app:tint="@color/black"
+                        android:src="@drawable/circle" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_gravity="center"
@@ -156,7 +159,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackground"
-
+                android:id="@+id/activity_table"
                 android:layout_height="match_parent">
                 <FrameLayout
                     android:layout_width="match_parent"
@@ -166,7 +169,8 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_gravity="center"
-                        app:tint="@color/purple_500"/>
+                        app:tint="@color/black"
+                        android:src="@drawable/circle" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_gravity="center"
@@ -187,7 +191,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackground"
-
+                android:id="@+id/activity_material"
                 android:layout_height="match_parent">
                 <FrameLayout
                     android:layout_width="match_parent"
@@ -197,7 +201,8 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_gravity="center"
-                        app:tint="@color/purple_500"/>
+                        app:tint="@color/black"
+                        android:src="@drawable/circle" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_gravity="center"
@@ -223,7 +228,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackground"
-
+                android:id="@+id/activity_scroll_view"
                 android:layout_weight="0.3"
                 android:orientation="vertical"
                 android:layout_height="match_parent">
@@ -235,7 +240,8 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_gravity="center"
-                        app:tint="@color/purple_500"/>
+                        app:tint="@color/black"
+                        android:src="@drawable/circle" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_gravity="center"
@@ -256,7 +262,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackground"
-
+                android:id="@+id/activity_horizontalscrollview"
                 android:layout_height="match_parent">
                 <FrameLayout
                     android:layout_width="match_parent"
@@ -266,7 +272,8 @@
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_gravity="center"
-                        app:tint="@color/purple_500"/>
+                        app:tint="@color/black"
+                        android:src="@drawable/circle" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_gravity="center"
