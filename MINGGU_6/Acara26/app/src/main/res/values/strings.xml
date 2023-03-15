@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ACARA_26 Indra Bagus</string>
+    <string name="back">Back</string>
+    <string name="show_private_data">Private data</string>
+    <string name="show_public_data">Public data</string>
+    <string name="add_text">Add data</string>
+    <string name="click_to_view">Click to view</string>
+    <string name="save_as_private">Save as private</string>
+    <string name="save_as_public">Save as public</string>
+
+
+
+
+</resources>

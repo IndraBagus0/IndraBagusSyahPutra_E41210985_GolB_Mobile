@@ -26,5 +26,5 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/txtHello"
         android:layout_alignStart="@id/txtHello"
-        android:text="Terimakasih telah mengisi presensi" />
+        android:text="TERIMA KASIH TELAH MENGISI NAMA KAMU" />
 </RelativeLayout>

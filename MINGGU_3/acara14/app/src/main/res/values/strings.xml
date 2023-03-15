@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">acara14</string>
-
+    <string name="app_name">ListView</string>
         <string-array name="countries_arry">
             <item>Afghanistan</item>
             <item>Albania</item>

@@ -18,7 +18,9 @@
         android:background="@color/black"
         android:text="Fragment Pertama"
         android:textColor="@color/white"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="15dp"
+        />
 
     <Button
         android:id="@+id/Second"
@@ -27,7 +29,8 @@
         android:background="@color/black"
         android:text="Fragment Kedua"
         android:textColor="@color/white"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="15dp"/>
     <FrameLayout
         android:id="@+id/FrameLayout"
         android:layout_width="match_parent"
