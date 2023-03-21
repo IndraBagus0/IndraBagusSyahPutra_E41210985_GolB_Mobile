@@ -24,7 +24,7 @@ public class MainActivity2 extends AppCompatActivity{
         Intent intent = new Intent(MainActivity2.this, MainActivity.class);
         startActivity(intent);
     }
-    public void getPulic(View view){
+    public void getPublic(View view){
         File folder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
         File myFile = new File(folder, "Data1.txt");
         String text = getdata(myFile);
