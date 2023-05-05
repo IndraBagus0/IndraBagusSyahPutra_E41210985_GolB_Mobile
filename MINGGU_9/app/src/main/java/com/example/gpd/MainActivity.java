@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         lightSensorValueTextView = findViewById(R.id.lightSensorValueTextView);
         proximitySensorValueTextView = findViewById(R.id.proximitySensorValueTextView);
         notiflight = findViewById(R.id.lightSensorNotificationTextView);
@@ -75,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
             if (lightSensorValue < 10) {
                 // Cahaya terlalu gelap, berikan notifikasi
-                String message = "Cahaya terlalu gelap!";
+                String message = "Cahaya q1t1qw 1111w1111www11111111111111111111www1qq      q       qqqq    1qqwwwwwwwwwwwwwwwwwwwwerlalu gelap!";
                 notiflight.setText(message);
             } else if (lightSensorValue > 100) {
                 // Cahaya terlalu terang, berikan notifikasi
